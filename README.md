@@ -9,7 +9,7 @@ This program uses the OpenCV library to open a connection to a camera and contin
 This program requires the OpenCV library to be installed.
 
 ## Usage
-To use this program, simply run it in a Python environment that has the OpenCV library installed. It will open a connection to the default camera and start displaying video frames in a window named "Live Video". To stop the program, simply press the 'q' key.
+To use this program, simply run it in a Python environment that has the OpenCV library installed. It will open a connection to the default camera and start displaying video frames in a window named "Live Video". To stop the program, simply press the 'q' key 'control c'.
 
 ## Notes
 - If you have multiple cameras connected to your system, you can specify the index of the camera you want to use by changing the argument in `cv2.VideoCapture()` from 0 to the index of the desired camera.
